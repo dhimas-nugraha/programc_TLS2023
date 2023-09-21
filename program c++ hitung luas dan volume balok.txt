@@ -1,0 +1,21 @@
+# include<iostream>
+using namespace std;
+int main()
+{
+    float panjang, lebar, tinggi;
+    float luas, volume;
+    cout << "\t hitung luas dan volume balok \n\n";
+    
+    cout << " masukkan panjang : ";
+    cin >> panjang;
+    cout << " masukkan lebar : ";
+    cin >> lebar;
+    cout <<" masukkan tinggi : ";
+  
+    cin >> tinggi;
+    
+    luas = (panjang * lebar + lebar * tinggi + panjang * + tinggi);
+    cout << " luas dari balok : " << luas;
+    volume = (panjang * lebar * tinggi);
+    cout << "\n volume dari balok tersebut : " <<volume;
+}
